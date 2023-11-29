@@ -48,7 +48,7 @@ Build the Docker image for the Rails application.
  <details>
    
 ```bash
-  docker build -t mehdi-mdj/pando2-app .
+  docker build -t medjoumehdi13/rails-app .
 
 ```
 
