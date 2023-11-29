@@ -1,0 +1,2 @@
+class AirQualityMeasurement < ApplicationRecord
+end
