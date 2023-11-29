@@ -41,7 +41,7 @@ Make sure you have Docker and Docker Compose installed on your machine. You can 
   ```bash
   git clone https://github.com/Mehdi-MDJ/TestPando2.git
   cd TestPando2
-</details>
+
 ```
 Build the Docker image for the Rails application.
 
@@ -49,7 +49,7 @@ Build the Docker image for the Rails application.
    
 ```bash
   docker build -t mehdi-mdj/pando2-app .
-</details>
+
 ```
 
 This will create a Docker image based on the Dockerfile in the project.
@@ -61,7 +61,7 @@ Run the Rails application using Docker.
    
 ```bash
   docker run -p 3000:3000 -e medjoumehdi13/rails-app
-</details>
+
 ```
 
 The -p 3000:3000 option maps port 3000 from the container to port 3000 on your host machine.
